@@ -1,0 +1,156 @@
+
+*{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header{
+    background-image: url(CIUDAD_1.JPG);
+    background-color: yellow;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 100px;
+    align-items: center;    
+}
+header hgroup h1{
+    padding: 15px;
+    
+}
+header hgroup h2{
+    padding: 10px;
+}
+header img{
+    width: 10%;
+    padding: 15px;
+    flex-grow: 1;
+    flex: 10%;
+}
+header hgroup{
+    flex-grow: 1;
+    flex: 60%;
+    text-align: right;
+}
+space{
+    flex-grow: 1;
+    flex: 10%;
+}
+nav{
+    width: 20%;
+    float: left;
+}
+nav ul{
+    padding: 10px;
+}
+nav ul li{
+    list-style: none;
+    display: flex;
+    flex-direction: column;  
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 12px;
+    margin: 10px 10px 5px 5px;
+    border: 2px ridge rgb(255, 255, 255);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 5px;
+}
+
+.imagenes{
+
+
+    height: 500px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/4/47/Bus_Pumakatari.JPG);
+    
+}
+article{
+    width: 60%;
+    float: left;
+    color: rgb(255, 255, 255);
+    margin: 20px 0 0 0 ;
+}
+article hgroup h1, h3{
+    text-align: left;
+    padding: 10px;
+}
+article section{
+    margin: 10px;
+    padding: 15px;
+    border: 5px outset rgb(218, 114, 55);
+    text-align: justify;
+    line-height: 30px;
+
+}
+
+
+ASIDE{
+    width: 20%;
+    float: right;
+    color: rgb(255, 255, 255);
+}
+aside DIV{
+    padding: 10px;
+
+}
+aside div li{
+    list-style: none;
+    text-align: center;
+    display: flex;
+    flex-direction: column; 
+}
+aside div li a{
+    text-decoration: none;
+    font-size: 12px;
+    margin: 0 0 5px 5px;
+    border: 2px ridge rgb(255, 255, 255);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 5px;
+    padding: 5px;
+
+}
+
+
+
+
+
+
+footer{
+    clear: both;
+    text-align: left;
+}
+footer h3{
+    text-align: center;
+}
+
+
+
+
+
+body{
+    background-color: #3e668d;
+}
+
+h1{
+    color: #000000;
+    font-size: 35px;
+}
+h2{
+    color: #79631c;
+    font-size: 30px;
+}
+h3{
+    color: #3e668d;
+    font-size: 20px;
+
+}
+
